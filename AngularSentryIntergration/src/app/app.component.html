@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to Puppy Earror!
+  </h1>
+  <img width="300" alt="Angular Logo" src="/assets/puppies.jpg">
+  <div>
+    <h2>Puppies?</h2>
+    <button class="btn btn-primary" (click)="onAddError()"> Yes, more puppies!</button>
+    <br><br>
+    <ul class="list-group">
+      <li *ngFor="let puppy of puppys; let i = index">
+        {{puppy}}
+      </li>
+    </ul>
+    </div>
+</div>
